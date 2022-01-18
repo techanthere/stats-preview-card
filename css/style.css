@@ -52,7 +52,7 @@ body{
   mix-blend-mode: initial;
   opacity: 0.5;
   width: 100%;
-  height: auto;
+  height: 100%;
   border-top-left-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius);
 }
@@ -189,7 +189,6 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     max-width: 55rem;
-    grid-column-gap: 3rem;
   }
 
   .main__image-mobile {
